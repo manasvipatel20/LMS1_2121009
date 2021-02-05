@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS-Login Page</title>
+    <link rel="stylesheet" href="../css/main.css">
+     
+</head>
+<body>
+    <h1>Library Managment System</h1>
+    <div class="centerdiv">
+    <form method="get" onsubmit="return validate_login();" action="page2.html">
+        <table>
+            <tr>
+                <td>Name:<span class="mandatory_field">*</span></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Password:<span class="mandatory_field">*</span></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input   type="submit" value="Login">
+                    <input   type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</div>
+
+    <script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>

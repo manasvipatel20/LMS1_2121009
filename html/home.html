@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="../js/userloggedin.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body id="demo">
+    <h1 id="heading1">
+    </h1>
+    <script type="text/javascript">
+        var elm = document.getElementById("heading1");
+        var logged_user = localStorage.getItem("logged_user");
+        elm.innerText="Welcome " + logged_user.toUpperCase();    
+
+    </script>
+</body>
+</html>
